@@ -6,3 +6,6 @@ Technologies used:
 
 - Html
 - CSS
+
+CSS variables
+BEM

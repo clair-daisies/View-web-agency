@@ -17,20 +17,22 @@
   </head>
   <body>
     <!---------------------------   Navbar ------------------------>
-    <nav class="navbar">
+  <header class="navbar">
+    <h1 class="navbar__logo">VIEW WEB</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav class="menu-wrap">
       <ul class="navbar__wrapper">
-        <li>
-          <a href="#" class="navbar__logo navbar__items"
-            >VIEW WEB <i class="fas fa-arrow-down"></i
-          ></a>
-        </li>
         <li><a href="#" class="navbar__items">Home</a></li>
-        <li><a href="#" class="navbar__items">Features</a></li>
-        <li><a href="#" class="navbar__items">Services</a></li>
-        <li><a href="#" class="navbar__items">Projects</a></li>
-        <li><a href="#" class="navbar__items">Blog</a></li>
+        <li><a href="#features" class="navbar__items">Features</a></li>
+        <li><a href="#services" class="navbar__items">Services</a></li>
+        <li><a href="#projects" class="navbar__items">Projects</a></li>
+        <li><a href="#blog" class="navbar__items">Blog</a></li>
       </ul>
     </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
 
     <!------------------------- banner -------------------------->
     <header class="banner">
@@ -44,7 +46,7 @@
     </header>
 
     <!----------- Features section ----------------------------------->
-    <section class="features">
+    <section id="features" class="features">
       <div class="features__container">
         <article class="features__item">
           <i class="fa fa-code"></i>
@@ -89,7 +91,7 @@
     </section>
 
     <!---------------------- services --------------------------------->
-    <section class="services">
+    <section id="services" class="services">
       <!-----------Title ----------->
       <div class="title">
         <div class="title__text">
@@ -169,7 +171,7 @@
     </section>
 
     <!------------------------------------------    Projects ----------------------------------->
-    <section class="projects">
+    <section id="projects" class="projects">
       <!-----------Title ----------->
       <div class="title">
         <div class="title__text">
@@ -250,7 +252,7 @@
     </section>
 
     <!------------------------------    Blog ------------->
-    <section class="blogs">
+    <section id="blogs" class="blogs">
       <div class="title">
         <div class="title__text">
           <h1>
@@ -327,7 +329,7 @@
     </section>
 
     <!--------------- FOOTER-------------------->
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <h3 class="footer__text">copyright &copy; 2019. All rights reserved.</h3>
       <div class="footer__icons">
         <a href="#"><i class="fab fa-facebook-square"></i></a>
